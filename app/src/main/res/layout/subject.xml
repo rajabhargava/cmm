@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:id="@+id/rl_sub">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_sub"
+        android:src="@drawable/ic_menu_gallery"
+        android:padding="4dp"
+        android:layout_alignParentLeft="true"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/iv_sub"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tv_subname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#808080"
+            android:textSize="20sp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Progress"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/tv_progress"
+            android:textSize="16sp" />
+
+        <SeekBar
+            android:id="@+id/pv_sub"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:progress="20"
+            android:layout_toRightOf="@id/tv_progress"
+            android:layout_marginLeft="2dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/pv_sub"
+            android:layout_marginLeft="2dp"
+            android:id="@+id/tv_prog_percent"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryDark" />
+    </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+            android:id="@+id/bm_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home"
+            android:iconTint="@color/colorPrimaryDark"></item>
+
+    <item
+        android:id="@+id/bm_tests"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="Tests"
+        android:iconTint="@color/colorPrimaryDark"></item>
+
+    <item
+        android:id="@+id/bm_analysis"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="Analysis"
+        android:iconTint="@color/colorPrimaryDark"></item>
+
+    <item
+        android:id="@+id/bm_doubts"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="Doubts"
+        android:iconTint="@color/colorPrimaryDark"></item>
+
+    <item
+        android:id="@+id/bm_profile"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="Profile"
+        android:iconTint="@color/colorPrimaryDark"></item>
+</menu>
